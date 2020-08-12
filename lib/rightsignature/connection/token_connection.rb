@@ -1,8 +1,8 @@
 module RightSignature
   class TokenConnection
     include HTTParty
-    base_uri 'https://api.rightsignature.com/'
-    format :xml
+    base_uri 'https://secure.rightsignature.com'
+    # format :xml
 
     attr_reader :api_token
 
